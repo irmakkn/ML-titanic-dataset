@@ -1,2 +1,3 @@
 # ML-titanic-dataset
 Titanic dataset machine learning analysis to predict passenger survival using data preprocessing, and classification models. Includes model evaluation and hyperparameter tuning for improved accuracy.
+First, I examined the meaningful relationships between the variables and within the data itself. For this, I analyzed the mean, standard deviation, and percentiles, and checked for NaN values. I removed columns with too many NaN values and filled missing values in the age feature with the mean. Then, I used a combination of Random Forest and XGBoost models to build a predictive model, achieving an accuracy of 0.82.
